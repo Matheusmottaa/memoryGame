@@ -1,0 +1,38 @@
+.grid{ 
+  display: grid; 
+  grid-template-columns: repeat(4,1fr);
+  gap: 0.2rem; 
+}
+
+.intro{ 
+  padding: 2rem; 
+}
+
+h1{ 
+  padding: 10px;
+  margin-bottom: 35px;
+  font-size: 5rem;
+  text-align: center; 
+  color: rgb(157, 133, 193);
+}
+
+.intro p button{ 
+  margin-left: 20px;
+  padding: 10px 15px;
+  font-size: 1.45rem;  
+  border: 0; 
+  border-radius: 4px; 
+  background-color: rgb(200, 50, 50);
+  color: var(--black-900);
+  font-weight: bold;
+  transition: filter 0.2s;
+  cursor: pointer; 
+}
+
+.intro p button:hover{
+  filter: brightness(0.85);
+}
+
+.intro p{ 
+  font-size: 2rem;
+}
