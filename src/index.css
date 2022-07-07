@@ -1,0 +1,23 @@
+:root{ 
+ --color-primary: #13141f; 
+ --color-secondary: rgb(46, 44, 77); 
+ --white:  #ffffff; 
+ --black-700: #1c1c1c; 
+ --black-900: #000000; 
+}
+
+*{ 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+html{ 
+  font-size: 62.5%; 
+}
+
+body{ 
+  background-color: rgb(72, 43, 88);
+  font-size: 1.6rem; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
